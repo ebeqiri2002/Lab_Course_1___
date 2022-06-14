@@ -44,3 +44,16 @@ AdminRole varchar(500)
 select * from dbo.Admin
 
 insert into dbo.Admin values('Elmedin','2002-10-14','Shtime','image.png','elmedin@gmail.com','12345678','Admin')
+
+
+create table dbo.Dhoma(
+DhomaId int identity(1,1),
+DhomaName varchar(500),
+Department varchar(500),
+EmployeeName varchar(500),
+NurseName varchar(500),
+Slots varchar(500)
+)
+
+select * from dbo.Dhoma
+insert into dbo.Dhoma values('Elmedin','IT','doctor','nurse name','3/20')
